@@ -74,7 +74,7 @@ jobs:
             -Dgallium-drivers=freedreno,zink,virgl,llvmpipe \
             -Dgallium-va=disabled \
             -Dgallium-mediafoundation=disabled \
-            -Dvulkan-drivers=freedreno,virgl \
+            -Dvulkan-drivers=freedreno,virtio \
             -Dvulkan-layers= \
             -Degl=enabled \
             -Dgles2=enabled \
