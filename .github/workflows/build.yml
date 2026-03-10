@@ -69,7 +69,7 @@ jobs:
           echo "Building Mesa..."
           cd ~/mesa-for-android-container
           meson setup build/ \
-            --prefix=/usr \
+            --prefix=/opt/mesa \
             -Dplatforms=x11,wayland \
             -Dgallium-drivers=freedreno,zink,virgl,llvmpipe \
             -Dgallium-va=disabled \
